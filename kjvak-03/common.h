@@ -1,0 +1,9 @@
+#ifndef COMMON_H
+#define COMMON_H
+
+#define BIBLE_CSV_FILE "/home/fria/projects/kjvak/kjvak.csv"
+#define BIBLE_INF_FILE "/home/fria/projects/kjvak/kjvak.inf"
+
+#define STRING_MAX 65536
+
+#endif
