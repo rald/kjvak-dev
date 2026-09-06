@@ -86,8 +86,7 @@ void Cites_Free(Cite ***cites,size_t *ncites) {
 
 
 
-void Cite_Append(Cite ***cites,size_t *ncites,Cite *cite) {  
-  *cites=realloc(*cites,sizeof(**cites)*(*ncites+1));
+void Cite_Append(Cite ***cites,size_t *ncites,Cite *cite) {  *cites=realloc(*cites,sizeof(**cites)*(*ncites+1));
   (*cites)[(*ncites)++]=cite;
 }
 
