@@ -174,7 +174,7 @@ void parse(Info **infos,size_t ninfos,Token **token,size_t ntokens,Cite ***cites
 
 	cite=Cite_New(0,0,0,0,0);
 
-    p0(infos,ninfos,token,ntokens,cites,ncites);
+  p0(infos,ninfos,token,ntokens,cites,ncites);
 
  	Cite_Free(&cite);
 }
