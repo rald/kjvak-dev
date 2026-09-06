@@ -50,11 +50,9 @@
 const char *mst = "fria";
 const char *hst = "irc.libera.chat";
 const char *prt = "6667";
-const char *nck = "frie";
+const char *nck = "bibly";
 const char *chn = "#pantasya";
 const char *pss = NULL;
-
-
 
 int sck;
 

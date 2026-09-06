@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 
-
+#include "common.h"
 
 #define IRC_IMPLEMENTATION
 #include "irc.h"
@@ -94,7 +94,7 @@ void Cite_Append(Cite ***cites,size_t *ncites,Cite *cite) {  *cites=realloc(*cit
 
 void Cite_Print(int conn,const char *chn,size_t page,Info **infos,size_t ninfos,Cite *cite) {
 
-  FILE *fp=fopen("kjvak.csv","r");
+  FILE *fp=fopen(BIBLE_CSV_FILE,"r");
 
   char *line=NULL;
   size_t llen=0;
